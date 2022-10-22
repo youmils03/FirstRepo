@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Entity
+comment0.text=\r\n\ Concrete\ classes\:\ can\ have\ concrete\ methods\ but\ not\ abstract\ methods,\ can\ be\ instantiated\r\n\ Abstract\ classes\:\ can\ have\ concrete\ methods\ and\ abstract\ methods,\ cannot\ be\ instantiated\r\n\ Interface\:\ can\ have\ abstract\ methods\ but\ not\ concrete\ methods,\ cannot\ be\ instantiated\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=t
+comment2.target=java.lang.String\ getName(int)
+comment3.params=
+comment3.target=int\ getNumber()
+comment4.params=
+comment4.target=int\ getAnotherNumber()
+numComments=5

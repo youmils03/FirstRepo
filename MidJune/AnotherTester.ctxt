@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=AnotherTester
+comment0.text=\r\n\ We\ already\ know\ that\ subclasses\ extend\ the\ functionality/methods\r\n\ from\ a\ superclass\r\n\ \r\n\ But\ you\ can\ also\ have\ a\ class\ WITHIN\ a\ class\ if\ you\ want\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=AnotherTester()
+comment2.params=e
+comment2.target=void\ throwException(java.lang.String)
+comment2.text=\r\n\ This\ method\ accepts\ a\ String\ and\ throws\ an\ exception\ if\ the\ string\r\n\ is\ longer\ than\ 4\ characters\r\n\ \r\n\ @param\ e\ the\ String\ whose\ length\ is\ to\ be\ checked\r\n\ @throws\ IllegalArgumentException\ if\ the\ string\ is\ longer\ than\ 4\ characters\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=x
+comment4.target=int\ f(int)
+comment5.params=myArray
+comment5.target=void\ mergeSort(int[])
+comment6.params=a\ L\ R
+comment6.target=void\ mergeSort(int[],\ int,\ int)
+comment7.params=a\ L\ M\ R
+comment7.target=void\ merge(int[],\ int,\ int,\ int)
+comment8.params=
+comment8.target=void\ mergeSortTester()
+numComments=9

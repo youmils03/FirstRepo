@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Engineer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Engineer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ Every\ class\ gets\ a\ blank\ default\ constructor\ by\ default.\r\n
+comment1.params=
+comment1.target=int\ getNumber()
+comment2.params=s
+comment2.target=void\ buildSomething(java.lang.String)
+numComments=3

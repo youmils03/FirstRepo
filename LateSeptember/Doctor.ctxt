@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Doctor
+comment0.text=\r\n\ For\ a\ constructor\ that\ makes\ a\ call\ to\ one\ of\ the\ superclass's\r\n\ constructors,\ super(x,y,...)\ must\ be\ the\ first\ line\r\n\ of\ code.\r\n
+comment1.params=name\ age\ hospital
+comment1.target=Doctor(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getNumber()
+comment3.params=
+comment3.target=java.lang.String\ getHospital()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

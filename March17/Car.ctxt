@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Car\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=m\ y\ color
+comment1.target=Car(java.lang.String,\ int,\ java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=model\ year
+comment2.target=Car(java.lang.String,\ int)
+comment3.params=
+comment3.target=Car()
+comment4.params=
+comment4.target=java.lang.String\ getModel()
+comment5.params=
+comment5.target=int\ getYear()
+comment6.params=
+comment6.target=java.lang.String\ getColor()
+comment7.params=model
+comment7.target=void\ setModel(java.lang.String)
+comment8.params=w
+comment8.target=void\ setYear(int)
+comment9.params=cactus
+comment9.target=void\ setColor(java.lang.String)
+numComments=11

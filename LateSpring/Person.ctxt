@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Person\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ w
+comment1.target=Person(java.lang.String,\ int)
+comment1.text=\r\n\ Javadocs\ is\ the\ Java\ equivalent\ to\ docstrings\ in\ Python\r\n\ We\ want\ formal\ comments/documentation\ to\ show\ up\r\n\ When\ we\ create\ a\ class,\ it\ generates\ something\ called\ an\ API\r\n\ API\ is\ where\ the\ documentation/information\ about\ our\ class\ is\ stored\r\n\ \r\n\ This\ is\ how\ you\ create\ it\:\ /**\ every\ line\ has\ a\ *\ end\ with\ a...you\ know,\ look\r\n\ This\ is\ different\ from\ an\ ordinary\ multi-line\ comment,\ because\ multi-line\ comments\r\n\ only\ start\ with\ /*\r\n\ \r\n\ Documentation\:\ Constructor\ which\ assigns\ values\ to\ two\ instance\ variables\ when\ a\ \r\n\ Person\ object\ is\ created\r\n\ @param\ name\ the\ name\ of\ the\ new\ Person\ object\ that\ is\ being\ created\r\n\ @param\ age\ the\ age\ of\ the\ Person\ object\r\n
+comment2.params=
+comment2.target=Person()
+comment2.text=\r\n\ Default\ constructor\ which\ assigns\ default\ values\ to\ the\ instance\ variables\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Method\ which\ returns\ the\ name\ of\ an\ instance\ of\ the\ Person\ class\ (Person\ object)\r\n\ @return\ the\ name\ of\ the\ Person\ object\r\n
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+comment4.text=\r\n\ Method\ which\ changes\ the\ name\ of\ a\ Person\ object\r\n\ @param\ name\ the\ new\ name\ to\ assign\ to\ the\ Person\ object\r\n
+numComments=5

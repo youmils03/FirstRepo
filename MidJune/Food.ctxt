@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Food
+comment0.text=\r\n\ Sorting\ objects\:\r\n\ 1.\ implement\ Comparable\r\n\ 2.\ make\ your\ signature\ -->\ public\ int\ compareTo(\ Object\ x\ )\r\n\ 3.\ polymorph\ x\ to\ whatever\ class\ you're\ in\ (Food\ y\ \=\ (Food)(x);)\r\n\ 4.\ define\ your\ compareTo\ -->\ fill\ in\ the\ body\ however\ you'd\ like\r\n\ 5.\ import\ java.util.Collections;\r\n\ 6.\ Collections.sort(\ myList\ );\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=item\ c
+comment1.target=Food(java.lang.String,\ int)
+comment2.params=
+comment2.target=Food()
+comment3.params=item
+comment3.target=Food(java.lang.String)
+comment4.params=calories
+comment4.target=Food(int)
+comment5.params=
+comment5.target=java.lang.String\ getItem()
+comment5.text=\r\n\ Returns\ the\ item\ associated\ with\ this\ Food\ object\r\n\ \r\n\ @return\ the\ item\ associated\ with\ the\ Food\ object\r\n
+comment6.params=item
+comment6.target=java.lang.String\ setItem(java.lang.String)
+comment6.text=\r\n\ This\ setter\ method\ accepts\ a\ new\ item\ name\ called\ "item"\ and\ \r\n\ reassigns\ it\ to\ the\ actual\ item\ instance\ variable\r\n\ The\ word\ that\ was\ originally\ the\ item\ is\ saved\ to\ oldItem\ and\r\n\ returned\ by\ the\ method\r\n\ \r\n\ @param\ item\ the\ new\ item\ for\ the\ Food\ object\r\n\ @return\ oldItem\ the\ previous\ item\ before\ the\ change\r\n
+comment7.params=t
+comment7.target=int\ compareTo(java.lang.Object)
+comment7.text=\r\n\ Since\ this\ class\ implements\ Comparable,\ we\ define\ what\ it\ means\ for\ one\ Food\ object\ to\ be\r\n\ less\ than\ another.\ This\ enables\ Collections.sort(x)\ and\ Arrays.sort(x)\ to\ make\ use\ of\ this\r\n\ NATURAL\ ORDERING\r\n\ \r\n\ @param\ t\ the\ object\ that\ THIS\ object\ should\ be\ compared\ to\r\n\ @return\ -1\ if\ THIS\ is\ less\ than\ t,\ +1\ if\ THIS\ is\ greater\ than\ t,\ and\ 0\ otherwise\r\n
+numComments=8

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MyClass
+comment0.text=\r\n\ 3\ types\ of\ vareiables\ in\ 2\ different\ sensees\:\r\n\ 1.\ method\ variable\ -->\ declared\ and\ initialized\ within\ a\ function\r\n\ 2.\ class/static\ variable\ -->\ declared\ at\ the\ top\ of\ the\ class,\ and\ any\r\n\ methods\ in\ the\ class\ can\ use\ that\ variable\r\n\ 3.\ instance\ variable\ -->\ kind\ of\ like\ a\ class\ variable,\ but\ this\ would\ \r\n\ be\ SPECIFIC\ to\ an\ INSTANCE\ of\ a\ class\r\n\ one\ Person's\ name\ and\ age\ values\ might\ be\ different\ from\ another\r\n\ Person's\ name\ and\ age\ values,\ but\ these\ are\ instance\ variables\r\n\ \r\n\ constructor\:\ the\ method\ that\ creates\ an\ instance\ of\ a\ class\r\n\ usually,\ it\ does\ this\ by\ assigning\ instance\ variables\r\n\ you\ could\ also\ print\ something\ in\ a\ constructor\r\n
+comment1.params=
+comment1.target=MyClass()
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ r\ is\ an\ example\ of\ a\ static/class\ variable\r\n\ this\ variable\ can\ be\ used\ by\ ANY\ methods\ in\ the\ class,\ not\ just\ one\ method\r\n
+comment4.params=
+comment4.target=boolean\ testR()
+comment5.params=
+comment5.target=int\ getNumber()
+numComments=6

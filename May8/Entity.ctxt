@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Entity
+comment0.text=\r\n\ Abstraction\:\r\n\ 1.\ abstract\ classes\r\n\ 2.\ interface\r\n\ \r\n\ concrete\ class\:\ can\ have\ concrete\ methods\ but\ not\ abstract\ methods,\ can\ be\ instantiated\r\n\ abstract\ class\:\ can\ have\ concrete\ methods\ and\ abstract\ methods,\ cannot\ be\ instantiated\r\n\ interface\:\ can\ have\ abstract\ methods\ but\ not\ concrete\ methods,\ cannot\ be\ instantiated\r\n\ \r\n\ abstract\ method\:\ a\ method\ with\ only\ a\ signature.\ It\ doesn't\ have\ a\ DEFINITION.\ It\ just\ has\:\r\n\ 1.\ public/private/protected\ determination\r\n\ 2.\ return\ type\ (int/double/String/boolean/Person/etc.)\r\n\ 3.\ name\ (getName(),\ setAge(int\ x))\r\n\ 4.\ parameters\ --->\ specify\ what\ kinds\ of\ arguments\ the\ function\ is\ expected\ to\ accept\r\n\ That's\ it.\ Abstract\ methods\ have\ no\ body\r\n\ \r\n\ Abstract\ methods\:\ less\ about\ information,\ more\ about\ REQUIREMENTS\ that\ the\ class\ that\ extends\r\n\ an\ abstract\ class\ or\ implements\ an\ interface\ needs\ to\ specify\ some\ level\ of\ functionality\ in\ that\r\n\ class\r\n\ \r\n
+comment1.params=
+comment1.target=int\ getSeven()
+comment2.params=
+comment2.target=int\ getEight()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=w
+comment4.target=void\ setName(java.lang.String)
+numComments=5

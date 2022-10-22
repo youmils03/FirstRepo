@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PersonTester
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PersonTester\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ Suppose\ that\ C\ is\ a\ superclass\ of\ D\r\n\ C\ x\ \=\ new\ D(\ );\ //polymorphism\r\n\ \r\n\ System.out.println(\ C\ instanceof\ E\ );\r\n\ //returns\ true\ if\ D\ is\ a\ subclass\ of\ E\r\n\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

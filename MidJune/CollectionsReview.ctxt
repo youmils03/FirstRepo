@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CollectionsReview
+comment0.text=\r\n\ This\ lesson\:\ reviewed\ Comparable\ interface\ /\ sorting\r\n\ This\ lesson\:\ investigation\ -->\ static\ array\ of\ dynamic\ arrays\r\n\ This\ lesson\:\ reviewed\ the\ Arrays\ class\r\n\ This\ lesson\:\ reviewed\ the\ Collections\ class\r\n\ \r\n\ Lessons\ ahead\:\r\n\ 1.\ memory\ in\ Java,\ how\ data\ is\ stored\ -->\ numeric\ data\ types\ (Integer,\ Double,\ Long,\ Short,\ Float)\r\n\ 2.\ pass\ by\ value,\ phenomenon\r\n\ 3.\ priority\ queues\r\n\ 4.\ trees\ -->\ binary\ search\ trees,\ how\ they're\ implemented\ (STRONG\ understanding\ of\ recursion)\r\n\ 5.\ final\ lesson\ just\ for\ review,\ questions,\ and\ challenges/examples\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
