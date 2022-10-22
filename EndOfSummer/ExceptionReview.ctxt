@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ExceptionReview
+comment0.text=\r\n\ Exceptions\ arise\ when\ there\ are\ unexpected\ breaks\ in\ our\ code\r\n\ Java\ is\ able\ to\ parse\ what\ we\ wrote\ gramatically\ (compiles),\ but\ there's\ some\ issue\r\n\ in\ the\ logic\ in\ the\ code\ which\ causes\ a\ runtime\ error\ before\ all\ of\ the\ code\ has\ a\ chance\r\n\ to\ be\ executed\r\n\ \r\n\ try\:\r\n\ {\r\n\ execute\ as\ much\ of\ this\ code\ as\ you\ can\r\n\ problematic\ code\ could\ arise\r\n\ }\r\n\ catch(\ wrong\ type\ of\ problem\ )\:\r\n\ {\r\n\ doesn't\ run\r\n\ }\r\n\ catch(\ subclass\ of\ the\ exception\ thrown\ )\r\n\ {\r\n\ doesn't\ run\r\n\ }\r\n\ catch(\ superclass\ or\ class\ of\ exception\ thrown\ )\r\n\ {\r\n\ \ \ \ \ starts\ running\ when\ the\ try\ block\ hits\ an\ error.\ \r\n\ \ \ \ \ The\ exception\ is\ AVOIDED.\ NO\ ISSUES\ ARISE\ IN\ THE\ CODE\ \:)\r\n\ }\r\n\ catch(\ broader\ superclass\ of\ the\ exception\ thrown\ )\r\n\ {\r\n\ \ \ \ \ doesn't\ run\r\n\ }\r\n\ catch(\ more\ specific\ subclass\ of\ a\ class\ already\ listed\ )\r\n\ {\r\n\ \ \ \ \ NOT\ ALLOWED.\ YOU\ CANNOT\ CATCH\ SPECIFIC\ EXCEPTIONS\ AFTER\ GENERAL\ EXCEPTIONS\r\n\ }\r\n\ finally\r\n\ {\r\n\ \ \ \ \ this\ block\ runs\ REGARDLESS\ of\ whether\ an\ exception\ was\ actually\ thrown\r\n\ }\r\n\ //arrive\ here\ if\ 1\ of\ 2\ things\ happened\:\r\n\ //1.\ the\ try\ block\ was\ clean\r\n\ //2.\ you\ successfully\ caught\ the\ exception\ thrown\ by\ the\ try\ block\r\n\ }\r\n\ \r\n\ }\r\n\ }\r\n\ }\r\n\ }\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ exceptionExample1()
+comment2.params=
+comment2.target=void\ exceptionExample2()
+comment3.params=
+comment3.target=void\ exceptionExample3()
+comment4.params=a\ b
+comment4.target=int\ divideThese(int,\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

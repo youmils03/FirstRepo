@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=FirstFall
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ FirstFall\ here.\r\n\r\n\ \ If\ an\ object\ is\ declared\ in\ class\ C\ and\ initialized\ in\ subclass\ D,\r\n\ \ then\ it\ can\ only\ use\ methods\ that\ were\ at\ least\ ACKNOWLEDGED\ (i.e.\ potentially\r\n\ \ ASBTRACT\ methods\ that\ were\ not\ yet\ defined\ but\ at\ least\ were\ called\ out)\r\n\ \ in\ C\ or\ any\ superclasses\ of\ C.\ However,\ for\ those\ methods,\ it\ will\ use\r\n\ \ the\ MOST\ OVERRIDDEN\ version\ of\ that\ method\ down\ to\ the\ subclass\ D.\r\n\ \ (polymorphism)\r\n\ \ \r\n\ \ System.out.printf(\ "a.bf"\ ,\ c\ ),\ where\ c\ is\ some\ double\r\n\ \ if\ b\=\=0\ (true\ OR\ false)\ and\ (int)(a-0.5)\=a-0.5,\ then\ c\ is\ printed\ as\ (int)(a-0.5)\ +\ 1\r\n\ \ If\ you\ do\ a\ formatted\ string\ with\ a\ double\ but\ cut\ out\ all\ the\ decimal\ places,\ then\r\n\ \ Java\ takes\ the\ half\ number\ and\ rounds\ it\ up\ to\ the\ greater\ number\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ f()
+comment3.params=
+comment3.target=void\ g()
+comment4.params=
+comment4.target=void\ h()
+comment5.params=
+comment5.target=void\ q()
+numComments=6

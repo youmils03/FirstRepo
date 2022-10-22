@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Car\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=c\ topSpeed\ x
+comment1.target=Car(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ getPrice()
+comment3.params=
+comment3.target=Car()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=t
+comment5.target=int\ compareTo(java.lang.Object)
+comment5.text=\r\n\ Procedure\ for\ sorting\ instances\ in\ your\ class\r\n\ 1.\ implement\ the\ Comparable\ interface\r\n\ 2.\ define\ a\ compareTo\ method\ which\ accepts\ an\ object\ and\ returns\ an\ int.\ Instance\ method\r\n\ 3.\ polymorph\ the\ input\ to\ that\ method\ into\ your\ class\ type\r\n\ 4.\ provide\ a\ definition\ of\ comparability\ (what\ does\ "less\ than"\ mean?)\r\n\ 5.\ implement\ a\ sorting\ algorithm,\ Collections.sort(x)\ for\ some\ collection\ x\r\n
+comment6.params=a\ b
+comment6.target=int\ compareTo(java.lang.Object,\ java.lang.Object)
+comment6.text=\r\n\ STATIC\ implementation\ of\ the\ compareTo\ method\r\n\ This\ is\ NOT\ the\ traditional\ compareTo\ method,\ which\ is\ called\ ON\ an\ instance\ and\ only\ \r\n\ accepts\ ONE\ other\ instance.\ \r\n\ This\ method\ accepts\ two\ parameters\ and\ calls\ compareTo\ on\ the\ first\ one,\ invoking\ the\ second\r\n\ one\ as\ an\ argument\r\n\ \r\n\ @param\ a\ the\ first\ object\ to\ compare\r\n\ @param\ b\ the\ second\ object\ to\ compare\r\n\ @return\ -1\ if\ a<b,\ 1\ if\ a>b,\ -1/0/1\ otherwise\ (see\ method)\r\n
+comment7.params=
+comment7.target=void\ applyDiscount()
+comment8.params=
+comment8.target=void\ printDetails()
+numComments=9
