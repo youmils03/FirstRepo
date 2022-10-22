@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Examples
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Examples\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ b\ c\ d
+comment2.target=void\ fileIOexampleOne(java.lang.String,\ java.lang.String,\ boolean,\ java.lang.String)
+comment2.text=\r\n\ This\ method\ accepts\ three\ String\ objects\ and\ a\ boolean\r\n\ If\ the\ boolean\ is\ true,\ it\ creates\ a\ File\ named\ by\ the\ first\ String\ object\r\n\ otherweise,\ it\ creates\ a\ File\ named\ by\ the\ second\ String\ object\r\n\ \r\n\ It\ also\ writes\ the\ third\ String,\ in\ all\ uppercase,\ to\ that\ File\r\n\ \r\n\ @param\ a\ the\ first\ potential\ file\ name\r\n\ @param\ b\ the\ second\ potential\ file\ name\r\n\ @boolean\ c\ the\ boolean\ to\ check\r\n\ @param\ d\ the\ String\ to\ write\ to\ the\ text\ file\r\n
+comment3.params=
+comment3.target=void\ tester()
+numComments=4

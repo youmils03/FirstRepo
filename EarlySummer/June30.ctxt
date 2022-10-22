@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=June30
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ June30\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ On\ your\ own,\ understand\ that\ space\ complexity\ is\ almost\ as\ important\r\n\ as\ time\ complexity\r\n\ With\ sorting\ algorithms,\ we\ wanted\ 96666to\ see\ how\ many\ steps\ a\ procedure\r\n\ would\ take\ to\ complete\r\n\ But\ every\ time\ we\ store\ a\ variable,\ it's\ more\ a\ question\ of\ space\ complexity\r\n\ How\ much\ memory\ in\ the\ operating\ system\ are\ we\ taking\ up?\r\n\ Create\ variables\ for\ important\ information,\ but\ don't\ create\ variables\r\n\ that\ you\ won't\ use\ more\ than\ 4\ or\ 5\ times,\ just\ use\ the\ literal\ values\r\n\ \r\n\ Understand\:\ Google\ these\r\n\ Integer\ java\ api\ -->\ integer\ that's\ based\ on\ 32\ bits\r\n\ Double\ java\ api\ -->\ floating\ point\ (decimal)\ number\ based\ on\ 64\ bits\r\n\ Long\ java\ api\ -->\ integer\ that's\ based\ on\ 64\ bits\r\n\ Short\ java\ api\ -->\ integer\ that's\ only\ based\ on\ 16\ bits\ (small\ integer)\r\n\ Float\ java\ api\ -->\ floating\ point\ (decimal)\ number\ based\ on\ only\ 32\ bits\\\r\n\ \r\n\ Properties\:\r\n\ Integer.SIZE\r\n\ Integer.MAX_VALUE\r\n\ Integer.MIN_VALUE\r\n\ Float.SIZE\r\n\ Float.MAX_VALUE\r\n\ Float.MIN_VALUE\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ f()
+comment3.params=a1\ a2
+comment3.target=java.util.LinkedHashMap\ thisDictionary(java.lang.String[],\ int[])
+numComments=4

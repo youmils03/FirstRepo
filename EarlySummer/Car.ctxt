@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ Sorting\:\r\n\ Integers\ are\ sorted\ obviously\ by\ how\ big\ the\ number\ is\ (compareTo\ method\ from\ the\ Integer\ class)\r\n\ Strings\ are\ sorted\ alphabetically\ (compareTo\ method\ from\ the\ String\ class)\r\n\ \r\n\ You\ can\ sort\ any\ type\ of\ objects\ for\ a\ particular\ class.\ To\ do\ this\:\r\n\ 1.\ implement\ the\ Comparable\ interface\r\n\ 2.\ define\ a\ method\ called\ compareTo\ that\ accepts\ an\ object\ and\ returns\ an\ int\r\n\ 3.\ polymorph\ the\ object\ into\ the\ specific\ class\ type\ (whatever\ class\ is\ implementing\ that\ Comparable\ interface)\r\n\ 4.\ define\ -\ define\ what\ it\ means\ for\ one\ instasnce\ of\ your\ class\ to\ be\ less\ than\ another\ instance\ of\ your\ class\r\n\ 5.\ import\ java.util.Collections;\r\n\ 6.\ Collections.sort(\ myList\ );\ -->\ myList\ is\ a\ list\ or\ vector\ whose\ type\ is\ whatever\ class\ you\ made\ (Car,\ Person)\r\n\ -->\ Collections.sort(x)\ uses\ a\ sorting\ algorithm\ called\ timsort,\ which\ is\ similar\ to\ mergesort\ and\ insertion\ sort\r\n\ \r\n\ Javadocs\:\ Write\ /**\ to\ generate\ formal\ documentation.\ Explain\ what\ the\ method\ does,\ use\ \r\n\ @param\ to\ specify\ any\ inputs\ to\ the\ function\r\n\ @return\ to\ specify\ what\ the\ function\ returns,\ if\ anything\r\n\ @throws\ to\ specify\ each\ type\ of\ exception\ the\ function\ might\ throw\ and\ under\ what\ conditions\ that\ exception\ \r\n\ would\ be\ thrown\r\n\ \r\n\ Methods\ from\ the\ Collections\ class\ that\ you\ should\ know\ how\ to\ use\:\r\n\ 1.\ Collections.sort(x)\ -->\ NATURAL\ ORDERING\ (think\ about\ a\ class\ that\ implements\ Comparable\ interface)\r\n\ 2.\ Collections.min(x)\ -->\ NATURAL\ MINIMUM,\ HOW\ DID\ YOU\ DEFINE\ ONE\ INSTANCE\ AS\ BEING\ LESS\ THAN\ ANOTHER\r\n\ 3.\ Collections.max(x)\r\n\ 4.\ Collections.swap(x,y,z)\ -->\ within\ collection\ x,\ swaps\ the\ values\ at\ index\ positions\ y\ and\ z\r\n\ 5.\ Collections.fill(x,y)\ -->\ takes\ the\ collection\ x\ and\ fills\ each\ index\ position\ of\ it\ with\ whatever\ y\ is\r\n\ 6.\ Collections.shuffle(x)\ -->\ randomly\ changes\ the\ ordering\ of\ the\ elements\r\n\ 7.\ Collections.reverse(x)\ -->\ reverses\ all\ the\ index\ positions\r\n\ 8.\ Collections.replaceAll(x,y,z)\ -->\ BOOLEAN\ method\ that\ does\ 2\ things\r\n\ a.\ actually\ replaces\ all\ occurrences\ of\ y\ with\ z\r\n\ b.\ return\ true\ if\ any\ replacements\ were\ actually\ made,\ false\ otherwise\r\n\ 9.\ Collections.disjoint(x,y)\ -->\ returns\ true\ if\ and\ x\ and\ y\ do\ not\ share\ ANY\ of\ the\ same\ elements\r\n
+comment1.params=c\ p
+comment1.target=Car(java.lang.String,\ int)
+comment2.params=
+comment2.target=Car()
+comment3.params=color
+comment3.target=Car(java.lang.String)
+comment4.params=p
+comment4.target=Car(int)
+comment5.params=w
+comment5.target=int\ compareTo(java.lang.Object)
+comment6.params=
+comment6.target=java.lang.String\ getColor()
+comment7.params=
+comment7.target=int\ getPrice()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
