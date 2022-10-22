@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ It's\ not\ customary\ to\ have\ a\ binary\ search\ tree\ of\ booleans\r\n\ You\ only\ get\ 2\ unique\ values\r\n\ Root\ is\ true\ -->\ left\ subchild\ which\ is\ false\r\n\ Root\ is\ false\ -->\ right\ subchild\ which\ is\ true\r\n\ \r\n\ Java\ review\:\r\n\ printing\ statements,\ System.out.println(\ )\ vs.\ System.out.print(\ )\r\n\ arithmetic\ expressions\ -->\ add/multiply/substract/divide/reminder\r\n\ variables,\ storing\ information\ -->\ int\ t\ \=\ 6;\ String\ s;\ s\ \=\ "sup";\r\n\ changing\ the\ values\ of\ two\ variables\r\n\ String\ methods\:\ length,\ substring,\ indexOf,\ toUpperCase,\ startsWith,\ endsWith,\ equals,\ equalsIgnoreCase,\ concatb\ (or\ +)\r\n\ casting\:\ int\ -->\ double\ -->\ String\ (implicit),\ String\ -->\ double\ Double.parseDouble(x),\ Integer.parseInt(x)\r\n\ booleans\:\ true/false,\ true&&false\ \=\=\ false,\ true||false\ \=\=\ true\r\n\ if/else\ if/else\ architecture\r\n\ switch\ statement\r\n\ while\ loop\r\n\ for\ loop\r\n\ break/continue\ keywords\r\n\ do\ while\ loop\r\n\ 1d\ arrays\ -->\ static\ arrays.\ Fixed\ number\ of\ index\ positions,\ but\ you\ can\ change\ the\ values\ at\ any\ index\ positions\r\n\ for-each\ loop\ -->\ particularly\ well\ suited\ for\ array\r\n\ char\ data\ type\ -->\ Character\ wrapper\ class,\ ASCII\ values\r\n\ escape\ sequences\r\n\ Scanner\ class\:\ accepts\ user\ input\ (import\ Scanner,\ create\ a\ Scanner\ object,\ use\ the\ right\ methods,\ save\ the\ data,\ \r\n\ use\ the\ data)\r\n\ Math\ class\:\ Math\ provides\ a\ lot\ of\ static\ methods\ (sqrt,\ abs,\ addExact,\ etc.)\r\n\ static\ methods\:\ void\ methods,\ overloaded\ methods,\ methods\ might\ not\ accept\ any\ inputs\r\n
+comment1.params=name\ age
+comment1.target=Person(java.lang.String,\ int)
+comment2.params=s
+comment2.target=int\ compareTo(java.lang.Object)
+comment3.params=
+comment3.target=void\ f()
+comment4.params=
+comment4.target=void\ g()
+comment5.params=
+comment5.target=void\ h()
+comment6.params=
+comment6.target=void\ burger()
+comment7.params=
+comment7.target=int\ f1()
+comment8.params=
+comment8.target=void\ f2()
+comment8.text=\r\n\ By\ writing\ static,\ we\ either\ call\ Person.f2(\ )\ or\ simply\ f2(\ )\r\n\ If\ we\ had\ not\ written\ static,\ then\ this\ method\ would\ be\ an\ INSTANCE\ method\r\n\ in\ which\ case\ we'd\ write\r\n\ Person\ w\ \=\ new\ Person(\ );\r\n\ w.f2(\ );\ //use\ of\ an\ instance\ method\r\n\ \r\n\ [accessibility\ identifier\ public/private/protected]\ [static\ /\ blank]\ [return\ type]\ [method\ name](\ any\ parameters/inputs\ )\r\n\ {\r\n\ \ \ \ \ define\ what\ to\ do\ with\ those\ parameters/inputs;\r\n\ }\r\n\ \ \ \ \ }\r\n
+numComments=9
