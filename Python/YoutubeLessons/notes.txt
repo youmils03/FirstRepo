@@ -1,0 +1,6 @@
+New Topics for Videos: 
+
+a little more fleshing out with inheritance
+context managers with file I/O
+class methods can change class properties, static methods cannot
+review of regular expressions
