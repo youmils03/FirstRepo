@@ -33,12 +33,25 @@ Blackle: Json python. Two important functions: 1. json.loads(x), 2. json.dumps(x
 4. import json as J --> use J.loads(x) and J.dumps(x)
 """
 
+# json.loads(x) accepts a string and returns a dictionary
 myDictionary = " {\"summer\" : 92 , \"fall\": 66 , \"winter\": 40 , \"spring\": 66} "
-print( len( myDictionary ) )
-print( len( myDictionary := J.loads(myDictionary) ) )
-print( 66 in myDictionary )
-print( "summer" in myDictionary )
-print( "summer" in myDictionary.values( ) )
-print( tuple( myDictionary.items( ) )
-myDictionary["fall"] -= 2
+print( len( myDictionary ) )  # number of characters in the string. Way bigger than 4
+print( len( myDictionary := J.loads(myDictionary) ) )  # reassigns myDictionary to the dictionary within the string. 4 key-value pairs
+print( 66 in myDictionary )  # for a dictionary D, E in D if and only if E in D.keys( ). So this is false
+print( "summer" in myDictionary )  # True
+print( "summer" in myDictionary.values( ) )  # no, it's a key not a value
+print( tuple( myDictionary.items( ) ) )  # a tuple of tuples, where each tuple (K,V) is a key-value pair
+myDictionary["fall"] -= 2  # equivalent to: myDictionary.update( { "fall" : myDictionary.get("fall") - 2 } )
 print( myDictionary.get( "fa" + "ll" ) )
+      
+# json.dumps(x) accepts a Python object and returns a string
+yourDictionary = { "John" : 40 }
+yourDictionary[ "Camille" ] = yourDictionary[ "John" ]  # dictionary now has 2 keys mapping to the same value
+print( len( yourDictionary ) )
+print( "Cam" in yourDictionary )  # this is not a value in the dictionary
+print( "Cam" in ( yourDictionary := J.dumps( yourDictionary ) ) )  #  yourDictionary becomes a string. "Cam" appears in the string
+print( yourDictionary[0:16] )
+print( yourDictionary.upper( ) )
+
+print( type( myDictionary ) )
+print( type( yourDictionary ) )
