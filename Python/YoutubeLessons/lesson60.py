@@ -1,3 +1,5 @@
+from keyword import iskeyword as F
+
 class Person:
 
     def __init__(s,n,a):
@@ -12,3 +14,14 @@ v = Person( "Victor" , 64 )
 print( 52 in v )
 print( 68 in v )
 print( -3 in v )
+
+print( "is int a keyword? " , F( "int" ) )
+print( "is if a keyword? " , F( "if" ) )
+print( F( "int"[0:2] ) )  # True, in is a keyword
+print( F("print") )
+print( F("else") )
+print( F("self") )
+print( F( "YIELD".lower( ) ) )
+print( F( "bre" + ( "a" + "k" ) ) )
+print( F("range") )  # range(x) is a function, not a keyword
+
