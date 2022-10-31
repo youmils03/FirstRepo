@@ -17,12 +17,12 @@ print( n := iter(colle) )
 
 j = range(len(colle))
 
-for k in j:
-  try:
-    print(next(n))
-  except StopIteration:
-    print( "no next element" )
-  else:
-    print( "never reached stop iteration since the for loop terminated when it should have" )
-  finally:
-    print( "fun stuff!" )
+try:
+  for k in j:
+    print( next(n) )
+except StopIteration:
+  print( "no next element" )
+else:
+  print( "never hit stop iteration did we" )
+finally:
+  print( "fun stuff!" )
