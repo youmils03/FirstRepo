@@ -30,3 +30,17 @@ except Exception as E:
     print( "can't remove elements from a frozen set" )
 
 print( len(a) )  # for a list or set S, len(S) is variable. For a tuple or frozen set T, len(T) is constant.
+
+"""More operations with frozen sets. Is duplicated in the code for lesson 58 for further review"""
+
+x = { 3 , 4 , 9 , 4 , 4 }
+y = frozenset( { 1 , 7 , 6 , 7 , 7 , 4 } )
+
+print( x.union(y) )  # union(x) returns a set when called ON a set
+print( y.intersection(x) )  # intersection(x) returns a frozen set when called ON a frozen set
+print( ( {4,3} ).issubset( x ) )  # issubset(x)
+print( ( {7,6,4} ).issuperset( y ) )  # issuperset(x)
+print( ( frozenset( {3} ) ).issubset(x) )  # Can see whether a frozen set OR regular set is a subset OR superset of a frozen set OR regular set
+
+print( float(len(y) ) )  #4.0, constantly 4 unique elements in the immutable (frozen) set. float(len(y)) == 4.0 forever! (Unless you call del y)
+
