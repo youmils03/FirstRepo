@@ -25,10 +25,10 @@ def u(x,y,z):
         print( "pizza" )
         return 5
 
-print( True , 10 , 4 )
-print( [7] in [ 7 , 7 , 7 , [7] , [8] ] , "PE" , "UT" )
-print( False , "ball" , True )
-print( False , u(True,3,2) , u(False,5.2,"sssss") )
+print( u( True , 10 , 4)  )
+print( u( [7] in [ 7 , 7 , 7 , [7] , [8] ] , "PE" , "UT" ) )
+print( u( False , "ball" , True ) )
+print( u( False , u(True,3,2) , u(False,5.2,"sssss") ) )
 
 def noInput():
     print( "happy dog" )
