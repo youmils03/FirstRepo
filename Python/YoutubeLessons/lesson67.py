@@ -31,12 +31,12 @@ class B(A):  # subclass
         
     def __str__(t):
         return ( super().__str__() + " and hot dog" ).upper( )
-        
-print( k := pizza.loads( "{True: False}" ) ) 
+       
+k = {5:64, 8:64, True:False}
 print( len(k) )
 print( False in k )
 print( True in k )
-print( len(k) == len( k := pizza.
+print( len(k) == len( k := pizza.dumps(k) ) )  # False, the string and the dictionary would not have the same length
 print( type(k) )  # now a string via the walrus operator in the previous line
         
 u1 = 42
