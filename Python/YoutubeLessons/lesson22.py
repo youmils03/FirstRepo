@@ -61,14 +61,15 @@ listComprehension2 = [ "$" + y for y in ("100","200","400") if int(y) >= 200 ]
 for z in listComprehension2:
     print(z)
 
-
+#  formatted string using "a".format(x,y,...)
 print( "{0} and {1} and {2}, oh my!".format( "lions" , "tigers" , "bears" ) )
 
-a = "apples"
+#  formatted string using variables and "a".format(x=m,y=n,...)
+a = "apple"
 o = "oranges"
-s = "it's {x} and {y}, not {x} or {y}".format( y = o , x = a )
+s = "it's {x} and {y}, not {x} or {y}".format( y = o , x = a + "s" )
 print( s )
 
 u = 400
-v = 200
+v = 200  # this formatting technique allows other data types (e.g ints)
 print( "{soup} + {bread} = {b}".format( soup=u,bread=v,b=u+v) )
