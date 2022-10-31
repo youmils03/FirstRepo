@@ -13,7 +13,7 @@ def f(x):
 print( f(3) )
 
 def g(h,j):
-    print h in j
+    print(h in j)
 
 g( "e" , "eggplant" )  # True
 g( [3,2] , [ [2,3] , [1,3] , [3,3] ] )  # False
