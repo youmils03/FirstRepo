@@ -39,3 +39,11 @@ def Fibonacci(n):
             return s + Fibonacci(n-2)
     """
 
+print( factorial(0) )
+print( factorial(2) )
+print( factorial(8) )
+print( factorial(12) )
+print( Fibonacci(2) )
+print( Fibonacci(4) )
+print( Fibonacci(10) )
+print( Fibonacci(20) )
