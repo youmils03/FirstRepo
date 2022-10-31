@@ -50,7 +50,7 @@ for s in range(5,len(w)):
     print( w[s] )
     
 print( w := w.upper( ) )
-print( w.index[ "S" ] )  # first occurrence occurs at index position 0
+print( w.index( "S" ) )  # first occurrence occurs at index position 0
 
 print( tuple(w) )
 print( set(w) )
