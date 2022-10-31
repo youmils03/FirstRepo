@@ -55,3 +55,15 @@ print( yourDictionary.upper( ) )
 
 print( type( myDictionary ) )
 print( type( yourDictionary ) )
+
+w = J.dumps(5+4>3)  # w is assigned to the string "true", rather than the logical boolean True
+print( w + " or false" )  # it's a string, so you can concatenate it with another string
+print( type(w) )
+
+# J.dumps(x) can accept a list or tuple, then it just returns a string containing an array in square brackets
+myList = list(range(4))  # [0,1,2,3]
+print( J.dumps(myList) , type( J.dumps(myList) ) )
+
+myTuple = tuple(range(12))  # (0,1,2,3,4,5,6,7,8,9,10,11)
+print( J.dumps(myTuple) , type( J.dumps(myTuple) ) )
+
