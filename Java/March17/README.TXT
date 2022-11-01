@@ -1,12 +1,13 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
+This is Java code that I wrote while tutoring a 16-year-old computer science student
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+It covers important fundamentals, including but certainly not limited to:
+1. implicit and explicit casting
+2. loops and recursion
+3. data structures
+4. iterators, list iterators, and enumerations
+5. OOP principles
+6. inheritance and polymorphism
+7. threading
+8. pass by value
+
+Here is my YouTube curriculum: https://www.youtube.com/playlist?list=PLrhSIm25OjOS9zKI4-wRX7EDo0HrmUkE4
