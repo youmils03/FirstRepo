@@ -7,6 +7,9 @@ public class Lesson8
         System.out.println( 19 == 28 - 9 ); //equality
         System.out.println( 5 != 30 - 25 ); //non-equality
         System.out.println( !( 3 + 3 != 6) ); //true, double negative
+        
+        int p = 33; //one equals sign for assignment
+        System.out.println( p == 36 ); //two equals sign to check for equality
       
         System.out.println( true || false ); //true, or boolean
         System.out.println( true && false ); //false, and boolean
