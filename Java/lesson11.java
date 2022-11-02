@@ -5,7 +5,7 @@ public class Lesson11
         int u;
         u = 16;
       
-        switch( u / 6 ):
+        switch( u / 6 )
         {
           case 0:
             System.out.println( "apple" ); // runs if u>=0 && u<6
@@ -25,6 +25,7 @@ public class Lesson11
       
         /*
          * If you have a break statement at the end of each case, it functions as an if/elseif/else statement
+         */
          
          String k = "kiwi";
          int p;
