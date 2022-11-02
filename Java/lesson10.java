@@ -7,7 +7,7 @@ public class Lesson10
         boolean k2 = k % 2 == 0;
         boolean k3 = k % 5 == 0;
         
-        if( k1 == true ) //or if(k)
+        if( k1 == true ) //or if(k1)
         {
             System.out.println( k + " is divisible by 4" );
         }
