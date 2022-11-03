@@ -41,5 +41,26 @@ public class Lesson15
         }
         
         System.out.println( "Sum of values: " + sum );
+        
+        int [] mandarin = new int[8];
+        mandarin[3] = 18; //18
+        mandarin[5] = mandarin[3] % 4; //2
+        
+        int nonzeroes = 0;
+        
+        for( int M : mandarin )
+        {
+            if( M != 0 )
+            {
+                nonzeroes++;
+            }
+            else
+            {
+                continue; //skips the rest of the loop if M==0
+            }
+            System.out.println( "That's a nonzero number" );
+        }
+        System.out.println( "Number of zeroes: " + (mandarin.length - nonzeroes) );
+        System.out.println( "Number of nonzeroes: " + nonzeroes );
     }
 }
