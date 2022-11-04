@@ -108,7 +108,7 @@ public class Student extends Person
     
     public static void main(String args[] )
     {
-        Student a = new Student( "Amber" , 36 , 3.71 );
+        Student a = new Student( "Amber" , 36 , 0.64 );
         Student b, c, d;
         b = new Student();
         c = new Student(64);
