@@ -55,6 +55,31 @@ public class Person
   
     public static void main( String args [ ] )
     {
+        String [ ] names = { "Becky" , "Amber" , "Zack" , "Michael" , "Patrick" , "Jeremiah" };
+        int ages [ ] = { 52 , 29 , 34 , 38 , 45 , 40 };
+        Person [ ] group = new Person[ names.length ]; //array of objects
         
+        for( int t = 0 ; t < group.length ; t += 1 )
+        {
+            group[t] = new Person( names[t] , ages[t] ); //assign the objects in the Person array
+        }
+        
+        for( Person s : group )
+        {
+             System.out.println(s); //invokes the toString( ) method for each Person object
+        }
+        
+        Person greg = new Person( "Greg" , 44 );
+        
+        int r = 0;
+        
+        while( r < group.length )
+        {
+            System.out.println( greg.K( 12 , group[r] ) ); //use of an instance method
+            r = 1+r;
+        }
+        
+        System.out.println( K( group[0] ) ); //use of a static method within the same class
+        System.out.println( Person.K( group[2] ) ); //use of a static method in general
     }
 }
