@@ -78,7 +78,9 @@ public class Person
         String U = f(true); //invokes the static f(boolean y) with input true. 
         //The line above prints "Jesse is 29 years old" as a result of calling it. U is assigned to "cheeseburger"
         String V; //declare a string
-        V = f(true && false); //prints "JESSE" as a result of calling it, but V is assigned to "cheeseburger" like U
+        V = Person.f(true && false); //prints "JESSE" as a result of calling it, but V is assigned to "cheeseburger" like U
+        //for static methods M called outside of the class C in which they are defined, you MUST call C.M() not just M()
+        //here it is done optionally, you could have written V = f(true&&false) since f(y) was defined in this class
       
         V = V.toUpperCase( ); //doesn't print anything about Jesse since you didn't call f(y), but V == "CHEESEBURGER"
       
