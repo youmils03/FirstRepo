@@ -1,3 +1,5 @@
+import java.util.Math;
+
 public class Lesson30
 {
     /**
@@ -59,6 +61,10 @@ public class Lesson30
         Lesson30.printCharacter( 'v' , 3 );
         printCharacter( '@' , 10 );
         printCharacter( '!' , -10 ); //shows that printCharacter(c,n) can be improved
+        
+        System.out.println( multiplyThem( 1.2 , 3 ) );
+        System.out.println( Lesson30.multiplyThem( Math.PI , -1 ) );
+        System.out.println( multiplyThem( -3.01 , -4 ) );
     }
     
     /**
@@ -74,6 +80,49 @@ public class Lesson30
         {
             Lesson30.printCharacter( c , n-1 );
         }
+    }
+    
+    /**
+    * Function which accepts a floating-point number a and integer b and returns a*b
+    * @param a, a double
+    * @param b, an integer
+    * @return a*b
+    *
+    */
+    public static double multiplyThem( double a , int b )
+    {
+         if( b < 0 )
+         {
+                return 0 - helper( a , Math.abs(b) );
+         }
+         else
+         {
+                return Lesson30.helper(a,b);
+         }
+    }
+    
+    /**
+    * Trickly helper method which is semi-recursive in nature
+    *
+    */
+    public static double helper( double a , int b )
+    {
+         if(b==0)
+         {
+             return 0;
+         }
+         else if( b!=0 )
+         {
+             return a + this.multiplyThem(a,b-1);   
+         }
+         else if( true ) //never runs
+         {
+             return 999;
+         }
+         else //never runs, since (b==0||b!=0). Even if that weren't true, true. See above
+         {
+             return -999;
+         }
     }
 }
     
