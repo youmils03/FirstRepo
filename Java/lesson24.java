@@ -1,7 +1,7 @@
 public class Person
 {
     private String name; //can NOT be accessed outside the class
-    private int age; //can be accessed outside the class
+    public int age; //can be accessed outside the class
   
     Person( String n , int age )
     {
@@ -70,6 +70,9 @@ public class Person
       
         //System.out.println( S.name ); //not allowed, name is private
         System.out.println( (S.getName()).indexOf("E") ); //getName() is permitted. Method returns -1, no capital E
+        
+        //System.out.println( S.age ); //allowed, but bad etiquette
+        System.out.println( (S.getAge()) / 2 ); //9, floor division. Convert 2 to 2.0 for true division
       
         System.out.println(T); //Will is 19 years old
       
