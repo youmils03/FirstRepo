@@ -14,6 +14,16 @@ public class Person
         name = "Jesse";
         age = 29;
     }
+    
+    Person( String k )
+    {
+        this( k , 60 ); //creates a 60-year-old with the specified name. one parameter, one default value
+    } //invokes the constructor Person(name,age) with name=k and age=60
+  
+    Person( int v ) //you don't have to create all combinations of constructors, but it's good practice
+    {
+        this( "Adrian" , v-2 ); //creates a Person named Adrian with age 2 less than the input passed in
+    }
   
     public String getName( ) //3. create getter methods which return the values of the private instance variables
     {
