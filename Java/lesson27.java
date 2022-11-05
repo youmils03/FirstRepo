@@ -10,11 +10,11 @@ public class Lesson27
         myValues.add(2);
         myValues.add(1);
         myValues.add(0);
-        myValues.add(0,4); //adds 4 to the beginning of the ArrayList, so now it's [4,3,2,1,0]
+        myValues.add(1,4); //adds 4 after the beginning of the ArrayList, so now it's [3,4,2,1,0]
       
         //unlike static arrays, array lists (or dynamic arrays) can grow or shrink in size
       
-        myValues.remove(0); //TRICKY. Removes index position 0, not the Integer object 0. Now we have [3,2,1,0]
+        myValues.remove(0); //TRICKY. Removes index position 0, not the Integer object 0. Now we have [4,2,1,0]
         //this is only an issue for Integers and possibly Doubles. Otherwise remove(x) can be used for both
         //index positions x and objects/elements x
         //To remove the element 0 which is at index position 4, write: myValues.remove( Integer.valueOf(0) );
@@ -26,11 +26,11 @@ public class Lesson27
             h += 1;
         }
       
-        myValues.add( myValues.get(0) ); //[3,2,1,0,3]
-        myValues.add( myValues.size( ) ); //[3,2,1,0,3,5]
-        myValues.add( myValues.indexOf(myValues.get(0)) ); //[3,2,1,0,3,5,0]
-        myValues.add( myValues.lastIndexOf(myValues.get(0)) ); //[3,2,1,0,3,5,0,4]
-        myValues.set( myValues.get(1) , myValues.get( myValues.size( ) - 1 ) ); //[3,2,4,0,3,5,0,4]
+        myValues.add( myValues.get(0) ); //[4,2,1,0,3]
+        myValues.add( myValues.size( ) - 3 ); //[4,2,1,0,3,2]
+        myValues.add( myValues.indexOf(myValues.get(1)) ); //[4,2,1,0,3,2,0]
+        myValues.add( myValues.lastIndexOf(myValues.get(1)) ); //[3,2,1,0,3,2,0,5]
+        myValues.set( myValues.get(1) , myValues.get( myValues.size( ) - 1 ) ); //[3,2,5,0,3,2,0,5]
       
         for( Integer q : myValues )
         {
