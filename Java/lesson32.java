@@ -1,4 +1,4 @@
-//please refer to the Person and Student classes and import them for use with this main method
+//please refer to the Person and Student classes from lesson31.java and import them for use with this main method
 
 public class Lesson32
 {
