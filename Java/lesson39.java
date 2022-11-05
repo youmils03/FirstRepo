@@ -37,6 +37,12 @@ public class Person implements Comparable
         }
     }
     
+    /**
+    * Accepts an int array and sorts it according to the bubble sort algorithm
+    * @param values the array to sort
+    * @return a sorted version of the array
+    *
+    */
     public static int [ ] bubbleSort( int [ ] values )
     {
         for( int y = 0 ; y < values.length - 1 ; y += 1 )
@@ -55,6 +61,12 @@ public class Person implements Comparable
         return values;
     }
     
+    /**
+    * Accepts a static array of Person objects and sorts it according to the bubble sort algorithm and compareTo()
+    * @param values the static array to sort
+    * @return a sorted version of the array
+    *
+    */
     public static Person[ ] bubbleSort( Person[ ] people )
     {
         for( int y = 0 ; y < people.length - 1 ; y += 1 )
@@ -74,6 +86,12 @@ public class Person implements Comparable
         return people;
     }
     
+    /**
+    * Accepts a dynamic array of Person objects and sorts it according to the bubble sort algorithm and compareTo()
+    * @param values the arraylist to sort
+    * @return a sorted version of the arraylist (dynamic array)
+    *
+    */
     public static ArrayList< Person > bubbleSort( ArrayList< Person > people )
     {
         for( int y = 0 ; y < people.size( ) - 1 ; y += 1 )
