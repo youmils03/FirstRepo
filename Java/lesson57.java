@@ -3,6 +3,11 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+* Methods for Collections: max, min, sort, binarySearch, fill, addAll, shuffle, disjoint
+* Methods for [static] Arrays: copyOf, toString, equals, fill, binarySearch, sort
+*/
+
 public class Person implements Comparable
 {
       private String name;
@@ -135,5 +140,30 @@ public class Person implements Comparable
           
           System.out.println( Collections.disjoint( sortedNums , L1 ) ); //true, no elements in common
           System.out.println( Collections.disjoint( sortedNums , L2 ) ); //false, at least one element in common
+          
+          String [ ] wordArray = { "egg" , "butter" , "cheese" , "milk" , "yogurt" };
+          
+          String [ ] A1 = Arrays.copyOf( wordArray , wordArray.length );
+          System.out.println( Arrays.toString(A1) ); //string representation of a static array
+          
+          String [ ] A2 = Arrays.copyOf( wordArray , wordArray.size() / 2 ); //copy only the first two elements
+          System.out.println( Arrays.toString(A2) );
+          
+          String A3 [ ] = Arrays.copyOf( wordArray , wordArray.length + 4 ); //get 4 nulls on the end
+          System.out.println( Arrays.toString(A3) );
+          
+          Arrays.fill( wordArray , 2 , 4 , "chocolate" );
+          System.out.println( Arrays.toString(wordArray) ); ["egg","butter","chocolate","chocolate","yogurt"]
+          
+          String A4 [ ] = { "chocolate" , "yogurt" , "egg" , "chocolate" , "butter" };
+          
+          System.out.println( Arrays.equals(wordArray,A4) ); //false, same elements but wrong order
+          System.out.println( Arrays.equals(A4,A4) ); //true, every array should be equal to itself
+          
+          int [ ] temperatures = { 72 , 66 , 53 , 59 , 64 , 71 , 81 , 50 , 57 , 68 , 62 , 75 , 59 , 54 };
+          
+          Arrays.sort( temperatures ); //just like Collections.sort(x) but this time using static arrays
+          
+          System.out.println( Arrays.binarySearch( temperatures , 71 ) ); //requires a sorted array
       }
  }
