@@ -20,5 +20,12 @@ public class Lesson4
         k -= 1; //98
         k--; //97
         System.out.println( k-1.0 ); //96.0
+        
+        int seven = 8, eight = 7;
+        int temp = seven;
+        seven = eight;
+        eight = temp;
+        System.out.println( "seven: " + seven );
+        System.out.println( "eight: " + eight );
     }
 }
