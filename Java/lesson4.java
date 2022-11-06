@@ -21,10 +21,10 @@ public class Lesson4
         k--; //97
         System.out.println( k-1.0 ); //96.0
         
-        int seven = 8, eight = 7;
-        int temp = seven;
-        seven = eight;
-        eight = temp;
+        int seven = 8, eight = 7; //to flip the values of two variables in Java:
+        int temp = seven;  //Step 1: generate a temp variable which latches onto either value
+        seven = eight;  //Step 2: reassign that variable you just assigned the value of to temp, to the value of whatever the other variable is
+        eight = temp; //Step 3: now, assign the second variable that you just assigned to the first variable, to the temp value recorded in line 25
         System.out.println( "seven: " + seven );
         System.out.println( "eight: " + eight );
     }
