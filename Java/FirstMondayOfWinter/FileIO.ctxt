@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FileIO
+comment0.text=\r\n\ Methods\ which\ have\ the\ potential\ to\ throw\ an\ exception\ must\ be\r\n\ invoked\ within\ a\ try\ block.\r\n\ \r\n\ 1.\ Import\ java.io.*\ and\ java.util.Scanner\r\n\ 2.\ in\ a\ try/block,\ do\ all\ of\ the\ following\r\n\ a.\ create\ a\ File\ object\ based\ on\ a\ filename\r\n\ b.\ call\ the\ createNewFile()\ method\ on\ the\ File\ object\r\n\ c.\ create\ a\ FileWriter\ object\ based\ on\ the\ File\ object\ OR\ on\ the\ filename\r\n\ d.\ call\ the\ write(x)\ method\ on\ the\ FileWriter\ object\ with\ some\ text\ x,\ remembering\ "\\n"\r\n\ e.\ call\ the\ close()\ method\ on\ the\ FileWriter\ object\r\n\ f.\ create\ a\ Scanner\ object\ based\ on\ the\ File\ object\ created\ in\ step\ a\r\n\ g.\ while(\ scannerObject.hasNextLine()\ )\r\n\ h.\ {\ System.out.println(\ scannerObject.nextLine()\ );\ }\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=myWriter\ u
+comment2.target=void\ write(java.io.FileWriter,\ java.lang.String)
+comment2.text=\r\n\ This\ function\ accepts\ a\ FileWriter\ object\ and\ a\ String\ and\ \r\n\ writes\ the\ string\ to\ the\ text\ file\ parameterized\ by\ the\ FileWriter\r\n\ It\ also\ adds\ a\ new\ line\r\n\ \r\n\ @param\ myWriter\ is\ the\ FileWriter\ object\ containing\ the\ text\ file\r\n\ @param\ u\ the\ text\ to\ write\r\n
+numComments=3

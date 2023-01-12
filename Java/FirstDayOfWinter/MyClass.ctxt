@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MyClass
+comment0.text=\r\n\ Abstract\ class\ MyClass\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=t
+comment1.target=int\ addTwo(int)
+numComments=2

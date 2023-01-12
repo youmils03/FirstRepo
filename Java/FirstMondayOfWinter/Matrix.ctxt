@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Matrix
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Matrix\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ f()
+comment2.params=r\ c
+comment2.target=Matrix(int,\ int)
+comment3.params=
+comment3.target=Matrix()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=A
+comment5.target=int[][]\ transpose(int[][])
+comment5.text=\r\n\ This\ function\ accepts\ a\ matrix\ and\ returns\ its\ transpose\r\n\ \r\n\ @param\ A,\ the\ matrix\r\n\ @return\ the\ transpose\ of\ A\r\n
+comment6.params=A\ B
+comment6.target=int[][]\ difference(int[][],\ int[][])
+comment7.params=A\ B
+comment7.target=int[][]\ sum(int[][],\ int[][])
+comment7.text=\r\n\ This\ static\ method\ accepts\ two\ matrixes\ and\ returns\ the\ sum\r\n\ \r\n\ @param\ A\ the\ first\ matrix\r\n\ @param\ B\ the\ second\ matrix\r\n\ @return\ the\ sum\r\n
+numComments=8

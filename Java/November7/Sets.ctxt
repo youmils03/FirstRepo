@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Sets
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Sets\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ Reviewed\:\ file\ I/O,\ queues,\ sets,\ maps,\ iterators\r\n\ \r\n\ Remaining\:\r\n\ numeric\ types\r\n\ Collections\ and\ Arrays\ classes\r\n\ matrices\ (2D\ arrays,\ operations\:\ transpose,\ inverse,\ sum/difference\ of\ two\ matrices)\r\n\ \ \ \ \ \ -->\ exception-handling\r\n\ pass\ by\ value\r\n\ binary\ search\ trees\r\n\ setting\ up\ a\ Github\ account\r\n\ priority\ queues\r\n\ final\ lesson\:\ screen\ swap\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

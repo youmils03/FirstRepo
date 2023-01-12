@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Review
+comment0.text=\r\n\ Java\:\r\n\ 1.\ printing\ statements\ /\ comments\r\n\ 2.\ arithmetic\ expressions\ (addition,\ subtraction,\ floor\ division)\r\n\ 3.\ variables,\ declaring/initializing,\ multiple\ variable\ declaration\r\n\ 4.\ rounding,\ implicit\ casting,\ String\ methods,\ int-->double-->String\r\n\ 5.\ boolean\ variables\ and\ expressions,\ true||false\=\=true,\ true&&false\=\=false\r\n\ 6.\ if/elseif/else\ architecture\r\n\ 7.\ switch/case\ statement\ (int\ and\ char)\ -->\ simple\ variable\ OR\ expression\r\n\ 8.\ while\ loops\r\n\ 9.\ for\ loops\r\n\ 10.\ 1-D\ arrays,\ escape\ sequences,\ char\ data\ type,\ 2-D\ arrays,\ for-each\ loop\r\n\ 11.\ Scanner\ class\ (user\ input)\r\n\ 12.\ Math\ class\ (detailed\ mathematical\ operations)\r\n\ 13.\ static\ methods,\ void\ methods,\ overloaded\ methods,\ inputs\r\n\ 14.\ object-oriented\ programming\ (instance\ variables,\ constructors,\ getters,\r\n\ setters,\ toString(),\ default\ constructors,\ this\ keyword)\r\n\ 15.\ inheritance\ (subclasses\ and\ superclasses,\ polymorphism)\r\n\ 16.\ abstraction\ (abstract\ classes\ and\ interfaces)\r\n\ 17.\ recursion,\ Javadocs\r\n\ 18.\ instanceof\ keyword\r\n\ 19.\ sorting\ algorithms\:\ bubble,\ insertion,\ selection\r\n\ 20.\ searching\ algorithms\:\ linear,\ binary\r\n\ 21.\ file\ I/O\r\n\ 22.\ do-while\ loops\r\n\ 23.\ threading\ (2\ approaches,\ 2\ techniques)\r\n\ 24.\ LinkedLists\r\n\ 25.\ stacks\r\n\ 26.\ queues\r\n\ 27.\ iterators\r\n\ 28.\ list\ iterators\r\n\ 29.\ enumerations\r\n\ 30.\ 2\ types\ of\ sets\r\n\ 31.4\ types\ of\ maps\ (2\ have\ enumerations,\ 2\ don't)\:\ Hashtable,\ ConcurrentHashMap\r\n\ *\r\n\ *3\ ways\ to\ retrieve\ values\ from\ a\ hashtable\ or\ concurrenthashmap\:\r\n\ *1.\ iterator\ on\ the\ keys\ -->\ myDictionary.get(\ keyParse.next()\ )\r\n\ *2.\ iterator\ on\ the\ values\ -->\ valueParse.next(\ )\r\n\ *3.\ enumeration\ on\ the\ dictionary\ -->\ (\ myDictionary.elements()\ ).nextElement()\r\n\ *\r\n\ 32.\ Collections\ and\ Arrays\ classes\r\n\ 33.\ 2D\ matrices\ (transpose,\ sum/difference,\ determinant)\r\n\ \r\n\ Last\ 5\ lessons\:\r\n\ 1.\ pass-by-value\ (tonight)\r\n\ 2.\ binary\ search\ trees\r\n\ 3.\ Git\ /\ version\ control\ (software\ engineering\ career)\r\n\ 4.\ priority\ queues\r\n\ 5.\ screenswap\ (Leetcode,\ coding\ challenges)\r\n\ \r\n
+comment1.params=p
+comment1.target=Review(java.lang.String)
+comment2.params=
+comment2.target=void\ solutionOne()
+comment3.params=u
+comment3.target=java.lang.String\ solutionTwo(java.lang.String)
+comment4.params=x
+comment4.target=void\ solutionThree(java.lang.String[])
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment6.params=t
+comment6.target=void\ plural(java.lang.String)
+numComments=7

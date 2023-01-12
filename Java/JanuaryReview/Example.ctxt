@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Example
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Example\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=filePath\ textToWrite
+comment2.target=void\ write(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ This\ method\ accepts\ a\ file\ path\ and\ some\ text\ and\ writes\ the\ text\r\n\ to\ the\ File\ object\ whose\ path\ is\ specified\ by\ the\ first\ argument\r\n\ \r\n\ @param\ filePath\ the\ path\ of\ the\ file\ to\ write\ text\ to\r\n\ @param\ textToWrite\ the\ text\ to\ write\ to\ the\ file\r\n
+numComments=3

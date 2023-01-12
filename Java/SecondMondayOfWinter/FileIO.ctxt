@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FileIO
+comment0.text=\r\n\ 3\ components\ to\ file\ I/O\:\r\n\ 1.\ creating\ a\ file\ -\ could\ raise\ an\ exception\ so\ do\ it\ within\ a\ try/catch\r\n\ 2.\ writing\ to\ the\ file\ -\ could\ raise\ an\ exception\r\n\ 3.\ read\ from\ the\ file\ -\ could\ raise\ an\ exception\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

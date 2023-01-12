@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Body
+comment0.text=\r\n\ Every\ class\ gets\ a\ blank\ default\ constructor\ by\ default\r\n\ You\ can\ always\ instantiate\ a\ class\ even\ if\ it\ doesn't\ formally\ have\ a\ constructor\r\n\ \r\n\ This\ is\ usually\ not\ practical,\ since\ we\ use\ constructors\ to\ assign\ values\ to\ \r\n\ instance\ variables\ for\ objects\ that\ are\ being\ created\ for\ the\ first\ time\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x
+comment1.target=Body(int)
+comment2.params=
+comment2.target=int\ getValue()
+comment3.params=
+comment3.target=Body()
+comment4.params=e
+comment4.target=Body(java.lang.String)
+comment5.params=
+comment5.target=boolean\ logic()
+comment5.text=\r\n\ This\ method\ is\ optional.\ You\ are\ allowed\ to\ have\ it,\ but\ it\ does\ not\ satisfy\r\n\ the\ requirements\ of\ any\ of\ the\ abstract\ methods\ in\ the\ interface\r\n\ \r\n\ @return\ false\r\n
+comment6.params=y
+comment6.target=boolean\ logic(java.lang.String)
+comment6.text=\r\n\ This\ is\ one\ of\ three\ methods\ that\ would\ be\ required\ due\ to\ implementing\r\n\ the\ interface\r\n\ This\ instance\ method\ accepts\ a\ String\ and\ returns\ true\ if\ the\ length\ is\ even\r\n\ \r\n\ @param\ y\ the\ String\ whose\ length\ to\ check\r\n\ @return\ true\ if\ the\ length\ is\ even,\ false\ otherwise\r\n
+comment7.params=watermelon
+comment7.target=double\ logic(int)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

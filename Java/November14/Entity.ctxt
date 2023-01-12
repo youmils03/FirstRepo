@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Entity
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Entity\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ What\ is\ an\ interface?\ (4\ points)\r\n\ 0\ points\:\ blank,\ completely\ incorrect\ (a\ function\ which\ accepts\ no\ inputs)\r\n\ 1\ point\:\ a\ blueprint\ or\ program\ for\ running\ sectioned\ code\r\n\ 2\ points\:\ a\ collection\ of\ abstract\ methods\r\n\ 3\ points\:\ a\ collection\ of\ abstract\ methods\ which\ cannot\ be\ instantiated,\ but\r\n\ an\ interface\ can\ be\ implemented\r\n\ 4\ points\:\ a\ collection\ of\ abstract\ methods\ which\ cannot\ be\ instantiated,\ but\r\n\ an\ interface\ can\ be\ implemented\ by\ a\ class.\ The\ class\ must\ provide\ full-bodied\r\n\ definitions\ for\ each\ method\ that\ was\ abstract\ in\ the\ interface\r\n\ \r\n\ \r\n
+comment1.params=
+comment1.target=int\ getValue()
+comment1.text=\r\n\ This\ abstract\ method\ mandates\ that\ any\ class\ that\ implements\ the\ Entity\r\n\ interface\ must\ define\ an\ instance\ method\ called\ getValue(\ )\ which\ accepts\r\n\ no\ parameters\ and\ returns\ an\ int\r\n
+comment2.params=t
+comment2.target=double\ logic(int)
+comment2.text=\r\n\ abstract\ word\ is\ optional\r\n\ the\ word\ "abstract"\ doesn't\ make\ a\ method\ abstract\r\n\ it's\ the\ semicolon\ at\ the\ end\ of\ the\ line\ that\ essentially\ makes\ it\ abstract\r\n\ \r\n\ This\ abstract\ method\ mandates\ th\r\n
+comment3.params=x
+comment3.target=boolean\ logic(java.lang.String)
+numComments=4
