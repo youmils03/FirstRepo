@@ -1,0 +1,504 @@
+import java.util.Scanner;
+
+/**
+ * Write a description of class Review here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Review
+{
+    public static int f( int x )
+    {
+        return x-4;
+    }
+    
+    public static void main( String args [ ] )
+    {
+        System.out.println( "pizza and pasta" );
+        
+        System.out.print( "Tim " );
+        System.out.print( "and " );
+        System.out.println( "Toby" );
+        
+        //This is a single-line comment
+        
+        /*
+         * This is a multiple
+         * line
+         * comment
+         * Helpful for helping other people understand your code
+         */
+        
+        System.out.println( 6 + 17 ); //basic arithmetic operations
+        System.out.println( 18 - 20 );
+        System.out.println( 5 * 3 );
+        
+        System.out.println( 400 / 100 );
+        System.out.println( 481 / 100 ); //floor division
+        System.out.println( 481 / 100.0 ); //implicit cast
+        
+        System.out.println( 27 % 5 ); //modular arithmetic
+        System.out.println( 3092 % 1000 );
+        
+        System.out.println( 3 + 6 * 2 + 7 * 5 + 3 + 8 * 2 ); //Java respects order of operations
+        
+        int s; //declare an int variable
+        s = 2; //initializze an int variable
+        int t = 6; //declare and initialize an int variable
+        
+        System.out.println( s+t * t ); //spacing doesn't matter. Still follows order of operations
+        
+        double k = 5;
+        System.out.println(k); //implicit cast to double
+        
+        System.out.println(k+9);
+        System.out.println(k+(int)(9));
+        System.out.println((int)(k+9));
+        System.out.println((int)(k+(double)(9)));
+        
+        int r = (int)(9.99);
+        System.out.println(r);
+        
+        int x = 12;
+        x = 18; //reassigning a variable
+        x = 20;
+        x = 23;
+        x = x - 20; //reassigning a variable based on its current value
+        x -= 2; //in-place operator
+        x *= 100; //another in-place operator
+        System.out.println(x); //12 --> 18 --> 20 --> 23 --> 3 --> 1 --> 100
+        
+        double a = 3.2 , b = 5.1; //multiple variable declarations permitted on the same line
+        System.out.println(a+b); //8.3
+        
+        int v1, v2;
+        v1 = 8;
+        v2 = 800;
+        int v3 = v1; //variable to store the old v1
+        v1 = v2; //v1 can now take the old v2
+        v2 = v3; //v2 can now take the old v1
+        System.out.println( v1 ); //800
+        System.out.println( v2 ); //8
+        
+        double d1 = 2.23 , d2 = -6.11 , d3 = -6.72;
+        System.out.println( (int)(d1 + 0.5) ); //rounds 2.23 to 2
+        System.out.println( (int)(d2 - 0.5) ); //rounds -6.11 to -6
+        System.out.println( (int)(d3 - 0.5) ); //rounds -6.72 to -7
+        
+        String s1 = "sun" , s2 = "Santa";
+        System.out.println( s1 + s2 ); //sunSanta
+        
+        System.out.println( s1.length() );
+        
+        double d4 = s2.length(); //implicit cast of an int to a double
+        System.out.println(d4); //5.0
+        
+        System.out.println( "apple".concat( "sauce" ) );
+        
+        String s3 = "pizza" , s4 = "";
+        System.out.println( s3.isEmpty() );
+        System.out.println( s4.isEmpty() );
+        
+        System.out.println( s3.toUpperCase() );
+        System.out.println( "Mike and Walt".toLowerCase() );
+        
+        System.out.println( "mouse".toString() );
+        
+        System.out.println( "Bike".equals("bIKE") );
+        System.out.println( "tan".equalsIgnoreCase( "t".concat( "a" + "N" ) ) );
+        
+        System.out.println( "carpets".startsWith("carpets") );
+        System.out.println( "endings".endsWith("end") );
+        
+        String p = "potatoes";
+        System.out.println( p.indexOf( "o" ) );
+        System.out.println( p.indexOf( "x" ) );
+        System.out.println( p.lastIndexOf( "o" ) );
+        
+        String sentence;
+        sentence = "Boston is cold, but Boston is neat. Go Boston!";
+        
+        System.out.println( sentence.replaceFirst( "Boston" , "Phoenix" ) );
+        System.out.println( sentence.replaceAll( "Boston" , "Dallas" ) );
+        
+        String food = "red eggs";
+        System.out.println( food.substring(0,1) ); //r
+        System.out.println( food.substring(0,3) ); //red
+        System.out.println( food.substring(4) ); //eggs
+        System.out.println( food.substring(4,food.length()) ); //same as food.substring(4)
+        
+        int apple = 52;
+        String orange = apple + " quantity";
+        System.out.println(orange); //here, 52 is cast to the String "52" and combined with " quantity"
+        
+        System.out.println( ( Integer.toString(821+100) ).length() ); //821+100-->921-->"921"-->3
+        
+        System.out.println( "3" + "19" ); //319
+        
+        System.out.println( Double.toString(5) + "32" ); //5.032, implicit casting
+        
+        double y1 = Integer.parseInt("9" + "2".concat("0") ) / 100; //parseInt method, floor division
+        double y2 = Double.parseDouble("16.2") - 0.2; //parseDoublke method
+        System.out.println(y1); //9.0, implicit cast of y1 to a double
+        System.out.println(y2); //16.0
+        System.out.println( (int)(y2) - y1 ); //7.0, implicit cast of (int)(y2) to double
+        System.out.println( (int)(y2 - y1) ); //7, explicit cast of (y2-y1) to int
+        
+        System.out.println( 16 < 11 ); //basic boolean expressions
+        System.out.println( 10 * 2 >= 20 );
+        
+        System.out.println( !(3 < 1+2) ); //negation
+        System.out.println( !(!(false)) ); //double negation
+        
+        System.out.println( (5 == 9-4) || (!true) ); //or boolean. true because at least one is true
+        System.out.println( (3 + 2 == 7) && (10 * 3 > 22) ); //and boolean. false because at least one is false
+        
+        boolean bucket, car;
+        bucket = 6 + 12 <= 15; //bucket is false
+        car = !bucket; //car is true
+        car = !car; //car is false
+        System.out.println( !(bucket || car) ); //true, it's false that at least one of them is true
+        System.out.println( !bucket || !car ); //true, at least one of them is not true
+        System.out.println( bucket && !car ); //false, bucket is false so && is false
+        System.out.println( !car || (bucket||car) ); //true, !car is true so || is true
+        
+        boolean dog = 5 < 19;
+        
+        if( dog )
+        {
+            System.out.println( "true that!" ); //runs because dog is true
+        }
+        
+        if( 18 + 14 == 30 )
+        {
+            System.out.println( "summer" ); //does not run
+        }
+        else
+        {
+            System.out.println( "winter" ); //runs
+        }
+        
+        if( !( "cookies".isEmpty() ) )
+        {
+            System.out.println( "15 keyboards" ); //runs
+        }
+        else if( false ) //else if runs only if and only if "if" didn't run
+        {
+            System.out.println( "22 keyboards" ); //does not run
+        }
+        else if( true ) //else if runs only if and only if "if" didn't run
+        {
+            System.out.println( "28 keyboards" ); //does not run
+        }
+        
+        if( false )
+        {
+            System.out.println( 10 % 7 ); //would print 3 but does not run
+        }
+        else if( 2 + 2 != 4 ) //short-hand for !(2+2==4), evaluates the boolean but it's false
+        {
+            System.out.println( 2 + 2 * 3 ); //would print 8 but does not run
+        }
+        else if( 2 + 2 > 5 )
+        {
+            System.out.println( 8*200 );
+        }
+        else
+        {
+            System.out.println( "this is the code that would run" );
+        }
+        
+        int expression = 82 - 22; //60
+        
+        /*
+         * switch(t) evaluates possible cases of t
+         * When a true case is found, it runs all subsequent cases until a break is found
+         * If no cases are true, the default statement is run
+         * If a true case is found and runs without finding a break statement, it also runs the default
+         * 
+         * WITHOUT BREAK
+         * 29 --> runs everything in purple
+         * 30 --> everything except cheeseburger
+         * ...
+         * 33 --> internet, no way jose
+         * anything else --> no way jose
+         * 
+         * WITH BREAK
+         * 
+         * 29 --> cheeseburger, hot dog, pizza, pasta
+         * 30 --> hot dog, pizza, pasta
+         * 31 --> pizza, pasta
+         * 32 --> pasta
+         * 33 --> internet, no way jose
+         * anything else --> no way jose
+         */
+        
+        switch(expression-30) //30
+        {
+            case 29:
+                System.out.println( "cheeseburger" );
+            case 30:
+                System.out.println( "hot dog" );
+            case 31:
+                System.out.println( "pizza" );
+            case 32:
+                System.out.println( "pasta" );
+                //break;
+            case 33:
+                System.out.println( "internet" );
+            default:
+                System.out.println( "no way jose" );
+        }
+        
+        int counter1 = 0;
+        
+        while( counter1 < 10 )
+        {
+            System.out.println( "Java and coffee beans" );
+            counter1++;
+        }
+        
+        for( int counter2 = 0 ; counter2 < 4 ; counter2 += 1 ) //or counter2=counter2+1, or counter2++
+        {
+            System.out.println(1000*counter2);
+        }
+        
+        for( String value = "tennis" ; value.length() < 8 ; value += "*" )
+        {
+            System.out.println( "My word is " + value.toString() ); //toString() unnecessary here
+        }
+        
+        double counter3 = 90;
+        
+        while( counter3 > 225 )
+        {
+            System.out.println( counter3 ); //90.0, 80.0, ...
+            
+            if( counter3 < 64 )
+            {
+                break; //cuts to the bottom of the loop the first time this if statement evalutes to true
+            }
+            
+            counter3 -= 10; //so counter3 will never be less than 225...
+        }
+        
+        boolean fixer = false;
+        
+        for( int counter4 = 100 ; counter4 < 130 ; counter4 += 1 )
+        {
+            fixer = counter4 % 4 == 0;
+            
+            if(!fixer)
+            {
+                continue;
+            }
+            else //else block unnecessary. continue keyword would skip "else" block anyway
+            {
+                System.out.println(fixer); //prints all multiples of 4 between 100 and 130
+            }
+        }
+        
+        int [ ] A1 = new int[3]; //{0,0,0}
+        double [ ] A2 = new double[A1.length]; //{0.0,0.0,0.0}
+        boolean A3 [ ] = new boolean[A2.length]; //{false,false,false}. Can put square brackets on either side
+        
+        System.out.println( A1[0] ); //references the element at the first index position
+        System.out.println( A2.length ); //A2 holds doubles but the length property is still an int
+        A2[2] = 4;
+        
+        if(A3[0]) //false
+        {
+            System.out.println(A1[2]); //0 but does not run
+        }
+        else
+        {
+            System.out.println(A2[2]); //4.0, runs. Implicit cast of 4 to 4.0 because in a double array
+        }
+        
+        int A4 [ ] = {9,2,5,1}; //concise creation of a 1D array
+        System.out.println( A4[1] * A4[2] );
+    
+        int sum1 , sum2;
+        sum1 = 0;
+        sum2 = 0;
+        
+        int indexer = 0;
+        
+        while( indexer < A4.length )
+        {
+            sum1 += A4[indexer];
+            indexer = indexer + 1;
+        }
+        
+        for( int A5 : A4 ) //for-each loop
+        {
+            sum2 = sum2 + A5; //or sum2 += A5
+        }
+        
+        System.out.println( sum1 == sum2 );
+        System.out.println( "Sum of elements in the array: " + sum2 );
+        
+        char c = '$';
+        System.out.println(c);
+        System.out.println((int)(c)); //ASCII character code
+        System.out.println(c+1); //implicit cast to 1 higher than the ASCII character code of c
+        System.out.println((char)(c+1)); //explicit cast. What's to the right of $ on the keyboard?d
+        System.out.println((char)(c-3)); //can you predict this one
+        
+        int donut = 'D'; //implicit cast of char to int to double 
+        System.out.println(1 + donut + "donut".indexOf("D")); //implicit cast to the ASCII character code of 'D' (int)
+        double nextCharacter = (char)(donut) + 1; //explicit cast int to char, then implicit cast to int, then to double
+        System.out.println("Next character up as a floating point number: " + Double.toString( nextCharacter ) );
+        
+        String word = "walnut".substring(0); //walnut
+        
+        char [] myLetters = word.toCharArray();
+        System.out.println( word.length() == myLetters.length ); 
+        String alternateWord = String.copyValueOf( myLetters );
+        System.out.println( word.equalsIgnoreCase( alternateWord.toUpperCase( ) ) ); //true
+        
+        String koalaBear = "Line1: \tDo not enter\n" + "Line2: \tGood night\t\tYoung grasshopper";
+        System.out.println( koalaBear ); //shows escape sequence for \n and \t, new line and new tab
+        
+        String jaguar = "The \"book\" he \'allegedly\' wrote";
+        System.out.println( jaguar.toUpperCase() ); //THE "BOOK" HE 'ALLEGEDLY' WROTE
+        
+        String [ ] [ ] properties = { {"March","chilly","rain","spring" } , {"June","hot","sun","summer"} };
+        
+        for( String [ ] oneDimensional : properties ) //outer loop: access each 1D array within the 2D array
+        {
+            for( int h = 3 ; h >= 0 ; h -= 1 ) //inner loop: access each individual element
+            {
+                if(false)
+                {
+                    continue; //would kill rest of the loop but this if-statement never runs
+                }
+                
+                System.out.println( oneDimensional[h] ); //iterate backwards
+            }
+        }
+        
+        Scanner parse = new Scanner(System.in);
+        System.out.print( "STATE YOUR FIRST NAME FOR THE RECORD: " );
+        String firstName = parse.next( );
+        System.out.print( "\nSTATE YOUR LAST NAME FOR THE RECORD: " ); //note the escape sequence
+        String lastName = parse.next( );
+        System.out.print( "\n" + "State your age for the record: ".toUpperCase( ) );
+        int age = parse.nextInt( );
+        System.out.println( "\nWell well well, if it isn't " + age + " year old " + firstName + " " + lastName );
+        System.out.println( "In 10 years you'll be ".toString() + (age+10) );
+        
+        int funMath = -2;
+        System.out.println( Math.abs(funMath) ); //|-2| == 2
+        System.out.println( Math.addExact(20,funMath) ); //20 + (-2) == 18
+        System.out.println( Math.cbrt(64) ); //4.0, cbrt(x) always returns a double
+        
+        System.out.println( "Base of the natural logarithm: " + Math.E );
+        System.out.println( "Ratio of a circumference to a diameter: " + Math.PI );
+        
+        System.out.println( Math.sin( Math.PI / 2 ) );
+        System.out.println( Math.cos( Math.PI ) );
+        
+        System.out.println( Math.exp(2) ); //e^2
+        System.out.println( Math.log( Math.exp(6.25) ) ); //should be able to predict this one...
+        
+        System.out.println( Math.log10( 10 * 10 * 10 * 10 * 10 * 10 ) ); //6.0
+        
+        System.out.println( Math.max( -24 , -15 ) ); //-15
+        
+        System.out.println( Math.min(-1,-1) ); //-1
+        
+        System.out.println( Math.multiplyExact( 8 , -10 ) ); //8 * -10 == -80
+        
+        System.out.println( Math.pow(10,2) ); //100.0, Math.pow(x) returns a double
+        
+        System.out.println( (int)( Math.random() * 4 ) + 10 ); //10, 11, 12, or 13
+        System.out.println( Math.sqrt(49.0) ); //7.0
+        
+        System.out.println(f(9)); //5
+        
+        int mcDowell;
+        mcDowell = f(15) + f(19);
+        System.out.println( "McDowell's Value = " + Integer.toString(mcDowell) );
+        
+        System.out.println( coconut(4,4) );
+        System.out.println( coconut(3,-8) ); //can define a method underneath the method you're in
+        
+        double M = (int)(w()); //h() casts 100 to 100.0, explicit cast to int but r is a double so implicit cast
+        System.out.println(M+M); //200.0
+        
+        System.out.println( (int)(w()) / 6 ); //16, floor division due to explicit cast of h() to int
+        
+        compute( "dog" , "chip" , false );
+        compute( "dog" , "chip" , !false );
+        
+        loadUp( 725 , "the streets of Dallas" );
+        loadUp( 725 );
+        
+        System.out.println( overload( 20 , 12 ) );
+        System.out.println( overload(5 * 4 >= 20) );
+        System.out.println( overload(80 + 80 > 160) );
+        
+        int book = 4;
+        for( int green = 0 ; green < 3 ; green += 1 )
+        {
+            book += printAndReturn(green); 
+        }
+        System.out.println( "Value of the book = " + book );
+    }
+    
+    public static boolean coconut( int u , int v ) //methods can accept more than one input
+    {
+        return u + v < 0;
+    }
+    
+    public static double w() //no inputs
+    {
+        return 100;
+    }
+    
+    public static int printAndReturn( int a )
+    {
+        System.out.println(a*5);
+        return a+2;
+    }
+    
+    public static String overload( int x , int y )
+    {
+        return "vanilla";
+    }
+    
+    public static String overload( boolean k )
+    {
+        if(k)
+        {
+            return "peanut butter";
+        }
+        else if(false) //this would be skipped
+        {
+            return "tomatoes"; //no chance of this
+        }
+        else //runs if and only if k is false
+        {
+            return "nutella and " + overload(14,-200) + " don't quite rhyme";
+        }
+    }
+    
+    public static void loadUp( int t , String v )
+    {
+        System.out.println(t+1);
+    }
+    
+    public static void loadUp( int k )
+    {
+        System.out.println(k-1);
+    }
+    
+    public static void compute( String a , String b , boolean c ) //void method. Third input irrelevant
+    {
+        System.out.println( "Concatenated string: " + (a.concat(b)) ); //or just a+b
+        System.out.println( "Length of the concatenated string: " + (a+b).length( ) );
+        System.out.println( "Sum of the lengths of the strings: " + ( a.length() + b.length() ) );
+    }
+}
